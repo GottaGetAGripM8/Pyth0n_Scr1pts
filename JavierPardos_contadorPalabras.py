@@ -35,7 +35,7 @@ print ""
 lineasTotales = ficheroAbierto.readlines()
 
 for i in lineasTotales:
-	for palEnLineaActual in i.splitlines() or i.split(' '):
+	for palEnLineaActual in i.split():
 		if palEnLineaActual == myWord:
 			numLineas +=1
 			numPalabras +=1
